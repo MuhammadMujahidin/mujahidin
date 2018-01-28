@@ -1,0 +1,72 @@
+.wrap{
+
+	width: 1000px;
+	margin: 10px auto;
+}
+ 
+/*bagian header*/
+.wrap .header{
+
+	background-image:url(../foto/headerbg.jpg);
+	 color: white;
+	/*height: 50px;*/
+	padding: 2px 10px;
+}
+
+.header img{
+	border-radius: 59%;
+}
+/*akhir header*/
+ 
+/*bagian menu*/
+.wrap .menu{
+	background: #C2BCBC;
+
+}
+ 
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: #C2BCBC;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: #C2BCBC;
+	float: left;	
+	width: 35%;
+	height: 140%;
+}
+ 
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+	background: white;
+	float: left;
+	height: 140%;
+	width: 65%;	
+}
+ 
+.wrap .footer{
+
+	background-image:url(../foto/footerbg.jpg) ;
+	color: white;
+	width: 98%;
+	padding: 10px;
+}
